@@ -1,0 +1,2 @@
+
+-DCATKIN_DEVEL_PREFIX=/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel -DCMAKE_INSTALL_PREFIX=/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/install -G Unix Makefiles
