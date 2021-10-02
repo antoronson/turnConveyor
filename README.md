@@ -27,3 +27,12 @@ Tasks
     ==> 1. Concept Validation using Physics Simulation
     ==> 2. Interface defenition for ROS
     ==> 3. Ros Setup. 
+
+1. Concept Validation:
+    Here a simple model was built in Coppelia Sim Software. 
+    This model can turn a package.
+    However, the orientation of the package cannot be determined. 
+    Idea 1 - 
+        Use the dynamics data like, Pakage Dimension, Speed and time. 
+        With the above data, the orientation can be predicted. 
+        
