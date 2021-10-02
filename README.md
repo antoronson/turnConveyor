@@ -23,3 +23,7 @@ Interface:
     -> REAL rTurnSpeed
     -> REAL rTransferSpeed
 
+Tasks
+    ==> 1. Concept Validation using Physics Simulation
+    ==> 2. Interface defenition for ROS
+    ==> 3. Ros Setup. 
