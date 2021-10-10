@@ -5,3 +5,6 @@
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
+subdirs("ros_bubble_rob")
+subdirs("sim_ros_interface")
+subdirs("user_pkg")

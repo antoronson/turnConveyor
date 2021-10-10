@@ -7,7 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel:$CMAKE_PREFIX_PATH"
 export PWD='/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build'
-export ROSLISP_PACKAGE_DIRECTORIES='/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/share/common-lisp'
-export ROS_PACKAGE_PATH="/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/src:$ROS_PACKAGE_PATH"

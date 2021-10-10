@@ -1,0 +1,8 @@
+prefix=/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/install
+
+Name: user_pkg
+Description: Description of user_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
