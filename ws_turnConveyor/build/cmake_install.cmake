@@ -131,6 +131,9 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/gtest/cmake_install.cmake")
+  include("/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/ros_bubble_rob/cmake_install.cmake")
+  include("/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/sim_ros_interface/cmake_install.cmake")
+  include("/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/user_pkg/cmake_install.cmake")
 
 endif()
 
