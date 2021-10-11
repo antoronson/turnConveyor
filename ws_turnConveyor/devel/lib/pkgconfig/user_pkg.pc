@@ -1,8 +1,8 @@
-prefix=/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel
+prefix=/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel
 
 Name: user_pkg
 Description: Description of user_pkg
 Version: 0.0.0
-Cflags: 
+Cflags: -I/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/include
 Libs: -L${prefix}/lib 
-Requires: 
+Requires: message_runtime std_msgs rospy roscpp
