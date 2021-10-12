@@ -268,7 +268,7 @@ if __name__ == '__main__':
 
         if not args.local:
             # environment at generation time
-            CMAKE_PREFIX_PATH = r'/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel;/opt/ros/noetic'.split(';')
+            CMAKE_PREFIX_PATH = r'/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel;/opt/ros/noetic'.split(';')
         else:
             # don't consider any other prefix path than this one
             CMAKE_PREFIX_PATH = []

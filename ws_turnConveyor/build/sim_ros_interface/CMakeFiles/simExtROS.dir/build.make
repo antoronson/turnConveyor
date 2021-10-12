@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/src
+CMAKE_SOURCE_DIR = /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build
+CMAKE_BINARY_DIR = /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build
 
 # Include any dependencies generated for this target.
 include sim_ros_interface/CMakeFiles/simExtROS.dir/depend.make
@@ -78,10 +78,10 @@ sim_ros_interface/generated/stubs.cpp: /home/antoronson/CoppeliaSim_Edu_V4_2_0_U
 sim_ros_interface/generated/stubs.cpp: /home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simStubsGen/cpp/stubsPlusPlus.cpp
 sim_ros_interface/generated/stubs.cpp: /home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simStubsGen/xsd/callbacks.xsd
 sim_ros_interface/generated/stubs.cpp: /home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simStubsGen/xsl/reference.xsl
-sim_ros_interface/generated/stubs.cpp: /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/src/sim_ros_interface/meta/callbacks.xml
-sim_ros_interface/generated/stubs.cpp: /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/src/sim_ros_interface/simROS.lua
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating generated/stubs.cpp, generated/stubs.h, generated/plugin.h, generated/stubsPlusPlus.cpp, generated/index.json, generated/reference.html, generated/lua_calltips.cpp, generated/simROS-typecheck.lua"
-	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/sim_ros_interface && /usr/bin/python3.8 /home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simStubsGen/generate.py --verbose --xml-file /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/src/sim_ros_interface/meta/callbacks.xml --gen-all /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/sim_ros_interface/generated --lua-file /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/src/sim_ros_interface/simROS.lua
+sim_ros_interface/generated/stubs.cpp: /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/src/sim_ros_interface/meta/callbacks.xml
+sim_ros_interface/generated/stubs.cpp: /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/src/sim_ros_interface/simROS.lua
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating generated/stubs.cpp, generated/stubs.h, generated/plugin.h, generated/stubsPlusPlus.cpp, generated/index.json, generated/reference.html, generated/lua_calltips.cpp, generated/simROS-typecheck.lua"
+	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/sim_ros_interface && /usr/bin/python3.8 /home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simStubsGen/generate.py --verbose --xml-file /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/src/sim_ros_interface/meta/callbacks.xml --gen-all /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/sim_ros_interface/generated --lua-file /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/src/sim_ros_interface/simROS.lua
 
 sim_ros_interface/generated/stubs.h: sim_ros_interface/generated/stubs.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate sim_ros_interface/generated/stubs.h
@@ -104,134 +104,134 @@ sim_ros_interface/generated/lua_calltips.cpp: sim_ros_interface/generated/stubs.
 sim_ros_interface/generated/simROS-typecheck.lua: sim_ros_interface/generated/stubs.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate sim_ros_interface/generated/simROS-typecheck.lua
 
-sim_ros_interface/generated/ros_msg_io.cpp: /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/src/sim_ros_interface/meta/messages.txt
-sim_ros_interface/generated/ros_msg_io.cpp: /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/src/sim_ros_interface/meta/services.txt
-sim_ros_interface/generated/ros_msg_io.cpp: /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/src/sim_ros_interface/templates/ros_msg_io.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating generated/ros_msg_io.cpp"
-	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/sim_ros_interface && /usr/bin/python3.8 /home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simStubsGen/external/pycpp/pycpp.py -p messages_file=/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/src/sim_ros_interface/meta/messages.txt -p services_file=/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/src/sim_ros_interface/meta/services.txt -i /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/src/sim_ros_interface/templates/ros_msg_io.cpp -o /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/sim_ros_interface/generated/ros_msg_io.cpp -P /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/src/sim_ros_interface/tools
+sim_ros_interface/generated/ros_msg_io.cpp: /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/src/sim_ros_interface/meta/messages.txt
+sim_ros_interface/generated/ros_msg_io.cpp: /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/src/sim_ros_interface/meta/services.txt
+sim_ros_interface/generated/ros_msg_io.cpp: /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/src/sim_ros_interface/templates/ros_msg_io.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating generated/ros_msg_io.cpp"
+	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/sim_ros_interface && /usr/bin/python3.8 /home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simStubsGen/external/pycpp/pycpp.py -p messages_file=/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/src/sim_ros_interface/meta/messages.txt -p services_file=/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/src/sim_ros_interface/meta/services.txt -i /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/src/sim_ros_interface/templates/ros_msg_io.cpp -o /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/sim_ros_interface/generated/ros_msg_io.cpp -P /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/src/sim_ros_interface/tools
 
-sim_ros_interface/generated/ros_srv_io.cpp: /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/src/sim_ros_interface/meta/messages.txt
-sim_ros_interface/generated/ros_srv_io.cpp: /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/src/sim_ros_interface/meta/services.txt
-sim_ros_interface/generated/ros_srv_io.cpp: /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/src/sim_ros_interface/templates/ros_srv_io.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating generated/ros_srv_io.cpp"
-	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/sim_ros_interface && /usr/bin/python3.8 /home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simStubsGen/external/pycpp/pycpp.py -p messages_file=/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/src/sim_ros_interface/meta/messages.txt -p services_file=/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/src/sim_ros_interface/meta/services.txt -i /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/src/sim_ros_interface/templates/ros_srv_io.cpp -o /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/sim_ros_interface/generated/ros_srv_io.cpp -P /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/src/sim_ros_interface/tools
+sim_ros_interface/generated/ros_srv_io.cpp: /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/src/sim_ros_interface/meta/messages.txt
+sim_ros_interface/generated/ros_srv_io.cpp: /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/src/sim_ros_interface/meta/services.txt
+sim_ros_interface/generated/ros_srv_io.cpp: /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/src/sim_ros_interface/templates/ros_srv_io.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating generated/ros_srv_io.cpp"
+	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/sim_ros_interface && /usr/bin/python3.8 /home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simStubsGen/external/pycpp/pycpp.py -p messages_file=/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/src/sim_ros_interface/meta/messages.txt -p services_file=/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/src/sim_ros_interface/meta/services.txt -i /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/src/sim_ros_interface/templates/ros_srv_io.cpp -o /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/sim_ros_interface/generated/ros_srv_io.cpp -P /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/src/sim_ros_interface/tools
 
 sim_ros_interface/CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/common/simLib.cpp.o: sim_ros_interface/CMakeFiles/simExtROS.dir/flags.make
 sim_ros_interface/CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/common/simLib.cpp.o: /home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/common/simLib.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object sim_ros_interface/CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/common/simLib.cpp.o"
-	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/sim_ros_interface && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/common/simLib.cpp.o -c /home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/common/simLib.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object sim_ros_interface/CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/common/simLib.cpp.o"
+	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/sim_ros_interface && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/common/simLib.cpp.o -c /home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/common/simLib.cpp
 
 sim_ros_interface/CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/common/simLib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/common/simLib.cpp.i"
-	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/sim_ros_interface && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/common/simLib.cpp > CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/common/simLib.cpp.i
+	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/sim_ros_interface && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/common/simLib.cpp > CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/common/simLib.cpp.i
 
 sim_ros_interface/CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/common/simLib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/common/simLib.cpp.s"
-	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/sim_ros_interface && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/common/simLib.cpp -o CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/common/simLib.cpp.s
+	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/sim_ros_interface && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/common/simLib.cpp -o CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/common/simLib.cpp.s
 
 sim_ros_interface/CMakeFiles/simExtROS.dir/generated/stubs.cpp.o: sim_ros_interface/CMakeFiles/simExtROS.dir/flags.make
 sim_ros_interface/CMakeFiles/simExtROS.dir/generated/stubs.cpp.o: sim_ros_interface/generated/stubs.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object sim_ros_interface/CMakeFiles/simExtROS.dir/generated/stubs.cpp.o"
-	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/sim_ros_interface && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simExtROS.dir/generated/stubs.cpp.o -c /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/sim_ros_interface/generated/stubs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object sim_ros_interface/CMakeFiles/simExtROS.dir/generated/stubs.cpp.o"
+	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/sim_ros_interface && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simExtROS.dir/generated/stubs.cpp.o -c /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/sim_ros_interface/generated/stubs.cpp
 
 sim_ros_interface/CMakeFiles/simExtROS.dir/generated/stubs.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simExtROS.dir/generated/stubs.cpp.i"
-	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/sim_ros_interface && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/sim_ros_interface/generated/stubs.cpp > CMakeFiles/simExtROS.dir/generated/stubs.cpp.i
+	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/sim_ros_interface && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/sim_ros_interface/generated/stubs.cpp > CMakeFiles/simExtROS.dir/generated/stubs.cpp.i
 
 sim_ros_interface/CMakeFiles/simExtROS.dir/generated/stubs.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simExtROS.dir/generated/stubs.cpp.s"
-	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/sim_ros_interface && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/sim_ros_interface/generated/stubs.cpp -o CMakeFiles/simExtROS.dir/generated/stubs.cpp.s
+	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/sim_ros_interface && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/sim_ros_interface/generated/stubs.cpp -o CMakeFiles/simExtROS.dir/generated/stubs.cpp.s
 
 sim_ros_interface/CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Lib.cpp.o: sim_ros_interface/CMakeFiles/simExtROS.dir/flags.make
 sim_ros_interface/CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Lib.cpp.o: /home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Lib.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object sim_ros_interface/CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Lib.cpp.o"
-	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/sim_ros_interface && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Lib.cpp.o -c /home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Lib.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object sim_ros_interface/CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Lib.cpp.o"
+	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/sim_ros_interface && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Lib.cpp.o -c /home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Lib.cpp
 
 sim_ros_interface/CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Lib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Lib.cpp.i"
-	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/sim_ros_interface && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Lib.cpp > CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Lib.cpp.i
+	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/sim_ros_interface && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Lib.cpp > CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Lib.cpp.i
 
 sim_ros_interface/CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Lib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Lib.cpp.s"
-	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/sim_ros_interface && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Lib.cpp -o CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Lib.cpp.s
+	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/sim_ros_interface && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Lib.cpp -o CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Lib.cpp.s
 
 sim_ros_interface/CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Plugin.cpp.o: sim_ros_interface/CMakeFiles/simExtROS.dir/flags.make
 sim_ros_interface/CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Plugin.cpp.o: /home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Plugin.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object sim_ros_interface/CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Plugin.cpp.o"
-	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/sim_ros_interface && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Plugin.cpp.o -c /home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Plugin.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object sim_ros_interface/CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Plugin.cpp.o"
+	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/sim_ros_interface && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Plugin.cpp.o -c /home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Plugin.cpp
 
 sim_ros_interface/CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Plugin.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Plugin.cpp.i"
-	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/sim_ros_interface && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Plugin.cpp > CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Plugin.cpp.i
+	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/sim_ros_interface && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Plugin.cpp > CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Plugin.cpp.i
 
 sim_ros_interface/CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Plugin.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Plugin.cpp.s"
-	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/sim_ros_interface && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Plugin.cpp -o CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Plugin.cpp.s
+	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/sim_ros_interface && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Plugin.cpp -o CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Plugin.cpp.s
 
 sim_ros_interface/CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Handle.cpp.o: sim_ros_interface/CMakeFiles/simExtROS.dir/flags.make
 sim_ros_interface/CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Handle.cpp.o: /home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Handle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object sim_ros_interface/CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Handle.cpp.o"
-	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/sim_ros_interface && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Handle.cpp.o -c /home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Handle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object sim_ros_interface/CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Handle.cpp.o"
+	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/sim_ros_interface && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Handle.cpp.o -c /home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Handle.cpp
 
 sim_ros_interface/CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Handle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Handle.cpp.i"
-	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/sim_ros_interface && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Handle.cpp > CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Handle.cpp.i
+	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/sim_ros_interface && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Handle.cpp > CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Handle.cpp.i
 
 sim_ros_interface/CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Handle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Handle.cpp.s"
-	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/sim_ros_interface && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Handle.cpp -o CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Handle.cpp.s
+	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/sim_ros_interface && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Handle.cpp -o CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Handle.cpp.s
 
 sim_ros_interface/CMakeFiles/simExtROS.dir/src/sim_ros_interface.cpp.o: sim_ros_interface/CMakeFiles/simExtROS.dir/flags.make
-sim_ros_interface/CMakeFiles/simExtROS.dir/src/sim_ros_interface.cpp.o: /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/src/sim_ros_interface/src/sim_ros_interface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object sim_ros_interface/CMakeFiles/simExtROS.dir/src/sim_ros_interface.cpp.o"
-	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/sim_ros_interface && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simExtROS.dir/src/sim_ros_interface.cpp.o -c /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/src/sim_ros_interface/src/sim_ros_interface.cpp
+sim_ros_interface/CMakeFiles/simExtROS.dir/src/sim_ros_interface.cpp.o: /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/src/sim_ros_interface/src/sim_ros_interface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object sim_ros_interface/CMakeFiles/simExtROS.dir/src/sim_ros_interface.cpp.o"
+	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/sim_ros_interface && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simExtROS.dir/src/sim_ros_interface.cpp.o -c /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/src/sim_ros_interface/src/sim_ros_interface.cpp
 
 sim_ros_interface/CMakeFiles/simExtROS.dir/src/sim_ros_interface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simExtROS.dir/src/sim_ros_interface.cpp.i"
-	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/sim_ros_interface && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/src/sim_ros_interface/src/sim_ros_interface.cpp > CMakeFiles/simExtROS.dir/src/sim_ros_interface.cpp.i
+	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/sim_ros_interface && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/src/sim_ros_interface/src/sim_ros_interface.cpp > CMakeFiles/simExtROS.dir/src/sim_ros_interface.cpp.i
 
 sim_ros_interface/CMakeFiles/simExtROS.dir/src/sim_ros_interface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simExtROS.dir/src/sim_ros_interface.cpp.s"
-	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/sim_ros_interface && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/src/sim_ros_interface/src/sim_ros_interface.cpp -o CMakeFiles/simExtROS.dir/src/sim_ros_interface.cpp.s
+	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/sim_ros_interface && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/src/sim_ros_interface/src/sim_ros_interface.cpp -o CMakeFiles/simExtROS.dir/src/sim_ros_interface.cpp.s
 
 sim_ros_interface/CMakeFiles/simExtROS.dir/src/ros_msg_builtin_io.cpp.o: sim_ros_interface/CMakeFiles/simExtROS.dir/flags.make
-sim_ros_interface/CMakeFiles/simExtROS.dir/src/ros_msg_builtin_io.cpp.o: /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/src/sim_ros_interface/src/ros_msg_builtin_io.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object sim_ros_interface/CMakeFiles/simExtROS.dir/src/ros_msg_builtin_io.cpp.o"
-	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/sim_ros_interface && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simExtROS.dir/src/ros_msg_builtin_io.cpp.o -c /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/src/sim_ros_interface/src/ros_msg_builtin_io.cpp
+sim_ros_interface/CMakeFiles/simExtROS.dir/src/ros_msg_builtin_io.cpp.o: /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/src/sim_ros_interface/src/ros_msg_builtin_io.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object sim_ros_interface/CMakeFiles/simExtROS.dir/src/ros_msg_builtin_io.cpp.o"
+	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/sim_ros_interface && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simExtROS.dir/src/ros_msg_builtin_io.cpp.o -c /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/src/sim_ros_interface/src/ros_msg_builtin_io.cpp
 
 sim_ros_interface/CMakeFiles/simExtROS.dir/src/ros_msg_builtin_io.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simExtROS.dir/src/ros_msg_builtin_io.cpp.i"
-	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/sim_ros_interface && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/src/sim_ros_interface/src/ros_msg_builtin_io.cpp > CMakeFiles/simExtROS.dir/src/ros_msg_builtin_io.cpp.i
+	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/sim_ros_interface && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/src/sim_ros_interface/src/ros_msg_builtin_io.cpp > CMakeFiles/simExtROS.dir/src/ros_msg_builtin_io.cpp.i
 
 sim_ros_interface/CMakeFiles/simExtROS.dir/src/ros_msg_builtin_io.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simExtROS.dir/src/ros_msg_builtin_io.cpp.s"
-	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/sim_ros_interface && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/src/sim_ros_interface/src/ros_msg_builtin_io.cpp -o CMakeFiles/simExtROS.dir/src/ros_msg_builtin_io.cpp.s
+	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/sim_ros_interface && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/src/sim_ros_interface/src/ros_msg_builtin_io.cpp -o CMakeFiles/simExtROS.dir/src/ros_msg_builtin_io.cpp.s
 
 sim_ros_interface/CMakeFiles/simExtROS.dir/generated/ros_msg_io.cpp.o: sim_ros_interface/CMakeFiles/simExtROS.dir/flags.make
 sim_ros_interface/CMakeFiles/simExtROS.dir/generated/ros_msg_io.cpp.o: sim_ros_interface/generated/ros_msg_io.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object sim_ros_interface/CMakeFiles/simExtROS.dir/generated/ros_msg_io.cpp.o"
-	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/sim_ros_interface && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simExtROS.dir/generated/ros_msg_io.cpp.o -c /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/sim_ros_interface/generated/ros_msg_io.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object sim_ros_interface/CMakeFiles/simExtROS.dir/generated/ros_msg_io.cpp.o"
+	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/sim_ros_interface && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simExtROS.dir/generated/ros_msg_io.cpp.o -c /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/sim_ros_interface/generated/ros_msg_io.cpp
 
 sim_ros_interface/CMakeFiles/simExtROS.dir/generated/ros_msg_io.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simExtROS.dir/generated/ros_msg_io.cpp.i"
-	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/sim_ros_interface && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/sim_ros_interface/generated/ros_msg_io.cpp > CMakeFiles/simExtROS.dir/generated/ros_msg_io.cpp.i
+	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/sim_ros_interface && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/sim_ros_interface/generated/ros_msg_io.cpp > CMakeFiles/simExtROS.dir/generated/ros_msg_io.cpp.i
 
 sim_ros_interface/CMakeFiles/simExtROS.dir/generated/ros_msg_io.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simExtROS.dir/generated/ros_msg_io.cpp.s"
-	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/sim_ros_interface && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/sim_ros_interface/generated/ros_msg_io.cpp -o CMakeFiles/simExtROS.dir/generated/ros_msg_io.cpp.s
+	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/sim_ros_interface && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/sim_ros_interface/generated/ros_msg_io.cpp -o CMakeFiles/simExtROS.dir/generated/ros_msg_io.cpp.s
 
 sim_ros_interface/CMakeFiles/simExtROS.dir/generated/ros_srv_io.cpp.o: sim_ros_interface/CMakeFiles/simExtROS.dir/flags.make
 sim_ros_interface/CMakeFiles/simExtROS.dir/generated/ros_srv_io.cpp.o: sim_ros_interface/generated/ros_srv_io.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object sim_ros_interface/CMakeFiles/simExtROS.dir/generated/ros_srv_io.cpp.o"
-	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/sim_ros_interface && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simExtROS.dir/generated/ros_srv_io.cpp.o -c /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/sim_ros_interface/generated/ros_srv_io.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object sim_ros_interface/CMakeFiles/simExtROS.dir/generated/ros_srv_io.cpp.o"
+	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/sim_ros_interface && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simExtROS.dir/generated/ros_srv_io.cpp.o -c /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/sim_ros_interface/generated/ros_srv_io.cpp
 
 sim_ros_interface/CMakeFiles/simExtROS.dir/generated/ros_srv_io.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simExtROS.dir/generated/ros_srv_io.cpp.i"
-	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/sim_ros_interface && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/sim_ros_interface/generated/ros_srv_io.cpp > CMakeFiles/simExtROS.dir/generated/ros_srv_io.cpp.i
+	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/sim_ros_interface && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/sim_ros_interface/generated/ros_srv_io.cpp > CMakeFiles/simExtROS.dir/generated/ros_srv_io.cpp.i
 
 sim_ros_interface/CMakeFiles/simExtROS.dir/generated/ros_srv_io.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simExtROS.dir/generated/ros_srv_io.cpp.s"
-	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/sim_ros_interface && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/sim_ros_interface/generated/ros_srv_io.cpp -o CMakeFiles/simExtROS.dir/generated/ros_srv_io.cpp.s
+	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/sim_ros_interface && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/sim_ros_interface/generated/ros_srv_io.cpp -o CMakeFiles/simExtROS.dir/generated/ros_srv_io.cpp.s
 
 # Object files for target simExtROS
 simExtROS_OBJECTS = \
@@ -248,110 +248,110 @@ simExtROS_OBJECTS = \
 # External object files for target simExtROS
 simExtROS_EXTERNAL_OBJECTS =
 
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: sim_ros_interface/CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/common/simLib.cpp.o
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: sim_ros_interface/CMakeFiles/simExtROS.dir/generated/stubs.cpp.o
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: sim_ros_interface/CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Lib.cpp.o
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: sim_ros_interface/CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Plugin.cpp.o
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: sim_ros_interface/CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Handle.cpp.o
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: sim_ros_interface/CMakeFiles/simExtROS.dir/src/sim_ros_interface.cpp.o
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: sim_ros_interface/CMakeFiles/simExtROS.dir/src/ros_msg_builtin_io.cpp.o
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: sim_ros_interface/CMakeFiles/simExtROS.dir/generated/ros_msg_io.cpp.o
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: sim_ros_interface/CMakeFiles/simExtROS.dir/generated/ros_srv_io.cpp.o
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: sim_ros_interface/CMakeFiles/simExtROS.dir/build.make
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /opt/ros/noetic/lib/libcv_bridge.so
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.4.2.0
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_dnn.so.4.2.0
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.4.2.0
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.4.2.0
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.2.0
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.4.2.0
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.4.2.0
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.4.2.0
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.4.2.0
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_video.so.4.2.0
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.2.0
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.4.2.0
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_bgsegm.so.4.2.0
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_bioinspired.so.4.2.0
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_ccalib.so.4.2.0
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_datasets.so.4.2.0
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_dnn_objdetect.so.4.2.0
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_dnn_superres.so.4.2.0
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_dpm.so.4.2.0
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_face.so.4.2.0
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_freetype.so.4.2.0
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_fuzzy.so.4.2.0
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_hdf.so.4.2.0
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_hfs.so.4.2.0
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_img_hash.so.4.2.0
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_line_descriptor.so.4.2.0
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_optflow.so.4.2.0
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_phase_unwrapping.so.4.2.0
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_plot.so.4.2.0
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_quality.so.4.2.0
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_reg.so.4.2.0
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_rgbd.so.4.2.0
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_saliency.so.4.2.0
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_shape.so.4.2.0
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_stereo.so.4.2.0
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_structured_light.so.4.2.0
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.4.2.0
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_surface_matching.so.4.2.0
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_text.so.4.2.0
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_tracking.so.4.2.0
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.4.2.0
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_viz.so.4.2.0
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_ximgproc.so.4.2.0
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.4.2.0
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.4.2.0
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.2.0
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.4.2.0
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /opt/ros/noetic/lib/libimage_transport.so
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /opt/ros/noetic/lib/libclass_loader.so
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libPocoFoundation.so
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /opt/ros/noetic/lib/libtf.so
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /opt/ros/noetic/lib/libroslib.so
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /opt/ros/noetic/lib/librospack.so
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libpython3.8.so
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/liborocos-kdl.so
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/liborocos-kdl.so
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /opt/ros/noetic/lib/libtf2_ros.so
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /opt/ros/noetic/lib/libactionlib.so
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /opt/ros/noetic/lib/libmessage_filters.so
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /opt/ros/noetic/lib/libroscpp.so
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /opt/ros/noetic/lib/librosconsole.so
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /opt/ros/noetic/lib/librosconsole_log4cxx.so
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /opt/ros/noetic/lib/librosconsole_backend_interface.so
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /opt/ros/noetic/lib/libxmlrpcpp.so
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /opt/ros/noetic/lib/libtf2.so
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /opt/ros/noetic/lib/libroscpp_serialization.so
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /opt/ros/noetic/lib/librostime.so
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /opt/ros/noetic/lib/libcpp_common.so
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: sim_ros_interface/CMakeFiles/simExtROS.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX shared library /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so"
-	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/sim_ros_interface && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/simExtROS.dir/link.txt --verbose=$(VERBOSE)
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: sim_ros_interface/CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/common/simLib.cpp.o
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: sim_ros_interface/CMakeFiles/simExtROS.dir/generated/stubs.cpp.o
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: sim_ros_interface/CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Lib.cpp.o
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: sim_ros_interface/CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Plugin.cpp.o
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: sim_ros_interface/CMakeFiles/simExtROS.dir/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/programming/libPlugin/simPlusPlus/Handle.cpp.o
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: sim_ros_interface/CMakeFiles/simExtROS.dir/src/sim_ros_interface.cpp.o
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: sim_ros_interface/CMakeFiles/simExtROS.dir/src/ros_msg_builtin_io.cpp.o
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: sim_ros_interface/CMakeFiles/simExtROS.dir/generated/ros_msg_io.cpp.o
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: sim_ros_interface/CMakeFiles/simExtROS.dir/generated/ros_srv_io.cpp.o
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: sim_ros_interface/CMakeFiles/simExtROS.dir/build.make
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /opt/ros/noetic/lib/libcv_bridge.so
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.4.2.0
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_dnn.so.4.2.0
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.4.2.0
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.4.2.0
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.2.0
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.4.2.0
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.4.2.0
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.4.2.0
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.4.2.0
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_video.so.4.2.0
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.2.0
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.4.2.0
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_bgsegm.so.4.2.0
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_bioinspired.so.4.2.0
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_ccalib.so.4.2.0
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_datasets.so.4.2.0
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_dnn_objdetect.so.4.2.0
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_dnn_superres.so.4.2.0
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_dpm.so.4.2.0
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_face.so.4.2.0
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_freetype.so.4.2.0
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_fuzzy.so.4.2.0
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_hdf.so.4.2.0
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_hfs.so.4.2.0
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_img_hash.so.4.2.0
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_line_descriptor.so.4.2.0
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_optflow.so.4.2.0
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_phase_unwrapping.so.4.2.0
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_plot.so.4.2.0
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_quality.so.4.2.0
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_reg.so.4.2.0
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_rgbd.so.4.2.0
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_saliency.so.4.2.0
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_shape.so.4.2.0
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_stereo.so.4.2.0
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_structured_light.so.4.2.0
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.4.2.0
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_surface_matching.so.4.2.0
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_text.so.4.2.0
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_tracking.so.4.2.0
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.4.2.0
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_viz.so.4.2.0
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_ximgproc.so.4.2.0
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.4.2.0
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.4.2.0
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.2.0
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.4.2.0
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /opt/ros/noetic/lib/libimage_transport.so
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /opt/ros/noetic/lib/libclass_loader.so
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libPocoFoundation.so
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /opt/ros/noetic/lib/libtf.so
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /opt/ros/noetic/lib/libroslib.so
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /opt/ros/noetic/lib/librospack.so
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/liborocos-kdl.so
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/liborocos-kdl.so
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /opt/ros/noetic/lib/libtf2_ros.so
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /opt/ros/noetic/lib/libactionlib.so
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /opt/ros/noetic/lib/libmessage_filters.so
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /opt/ros/noetic/lib/libroscpp.so
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /opt/ros/noetic/lib/librosconsole.so
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /opt/ros/noetic/lib/librosconsole_log4cxx.so
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /opt/ros/noetic/lib/librosconsole_backend_interface.so
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /opt/ros/noetic/lib/libxmlrpcpp.so
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /opt/ros/noetic/lib/libtf2.so
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /opt/ros/noetic/lib/libroscpp_serialization.so
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /opt/ros/noetic/lib/librostime.so
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /opt/ros/noetic/lib/libcpp_common.so
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so: sim_ros_interface/CMakeFiles/simExtROS.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX shared library /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so"
+	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/sim_ros_interface && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/simExtROS.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-sim_ros_interface/CMakeFiles/simExtROS.dir/build: /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so
+sim_ros_interface/CMakeFiles/simExtROS.dir/build: /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so
 
 .PHONY : sim_ros_interface/CMakeFiles/simExtROS.dir/build
 
 sim_ros_interface/CMakeFiles/simExtROS.dir/clean:
-	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/sim_ros_interface && $(CMAKE_COMMAND) -P CMakeFiles/simExtROS.dir/cmake_clean.cmake
+	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/sim_ros_interface && $(CMAKE_COMMAND) -P CMakeFiles/simExtROS.dir/cmake_clean.cmake
 .PHONY : sim_ros_interface/CMakeFiles/simExtROS.dir/clean
 
 sim_ros_interface/CMakeFiles/simExtROS.dir/depend: sim_ros_interface/generated/stubs.cpp
@@ -364,6 +364,6 @@ sim_ros_interface/CMakeFiles/simExtROS.dir/depend: sim_ros_interface/generated/l
 sim_ros_interface/CMakeFiles/simExtROS.dir/depend: sim_ros_interface/generated/simROS-typecheck.lua
 sim_ros_interface/CMakeFiles/simExtROS.dir/depend: sim_ros_interface/generated/ros_msg_io.cpp
 sim_ros_interface/CMakeFiles/simExtROS.dir/depend: sim_ros_interface/generated/ros_srv_io.cpp
-	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/src /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/src/sim_ros_interface /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/sim_ros_interface /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/sim_ros_interface/CMakeFiles/simExtROS.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/src /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/src/sim_ros_interface /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/sim_ros_interface /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/sim_ros_interface/CMakeFiles/simExtROS.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : sim_ros_interface/CMakeFiles/simExtROS.dir/depend
 

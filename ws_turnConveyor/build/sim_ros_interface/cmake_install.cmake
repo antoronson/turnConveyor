@@ -1,8 +1,8 @@
-# Install script for directory: /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/src/sim_ros_interface
+# Install script for directory: /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/src/sim_ros_interface
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/install")
+  set(CMAKE_INSTALL_PREFIX "/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,18 +38,18 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/sim_ros_interface/catkin_generated/installspace/sim_ros_interface.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/sim_ros_interface/catkin_generated/installspace/sim_ros_interface.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sim_ros_interface/cmake" TYPE FILE FILES
-    "/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/sim_ros_interface/catkin_generated/installspace/sim_ros_interfaceConfig.cmake"
-    "/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/sim_ros_interface/catkin_generated/installspace/sim_ros_interfaceConfig-version.cmake"
+    "/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/sim_ros_interface/catkin_generated/installspace/sim_ros_interfaceConfig.cmake"
+    "/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/sim_ros_interface/catkin_generated/installspace/sim_ros_interfaceConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sim_ros_interface" TYPE FILE FILES "/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/src/sim_ros_interface/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sim_ros_interface" TYPE FILE FILES "/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/src/sim_ros_interface/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -61,7 +61,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/lua" TYPE FILE FILES "/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/sim_ros_interface/generated/simROS-typecheck.lua")
+file(INSTALL DESTINATION "/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/lua" TYPE FILE FILES "/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/sim_ros_interface/generated/simROS-typecheck.lua")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -73,7 +73,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/lua" TYPE FILE RENAME "simROS.lua" FILES "/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/src/sim_ros_interface/simROS.lua")
+file(INSTALL DESTINATION "/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/lua" TYPE FILE RENAME "simROS.lua" FILES "/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/src/sim_ros_interface/simROS.lua")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -85,7 +85,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/helpFiles/en" TYPE FILE RENAME "simROS.htm" FILES "/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/sim_ros_interface/generated/reference.html")
+file(INSTALL DESTINATION "/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/helpFiles/en" TYPE FILE RENAME "simROS.htm" FILES "/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/sim_ros_interface/generated/reference.html")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -97,7 +97,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/helpFiles/index" TYPE FILE RENAME "simROS.json" FILES "/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/sim_ros_interface/generated/index.json")
+file(INSTALL DESTINATION "/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/helpFiles/index" TYPE FILE RENAME "simROS.json" FILES "/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/sim_ros_interface/generated/index.json")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -115,7 +115,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04" TYPE SHARED_LIBRARY FILES "/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so")
+file(INSTALL DESTINATION "/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04" TYPE SHARED_LIBRARY FILES "/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so")
   if(EXISTS "$ENV{DESTDIR}/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/libsimExtROS.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/home/antoronson/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04/libsimExtROS.so")
     file(RPATH_CHANGE

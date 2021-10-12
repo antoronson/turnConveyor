@@ -7,4 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export PWD='/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build'
+export PWD='/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build'

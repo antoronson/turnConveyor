@@ -1,4 +1,4 @@
-prefix=/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel
+prefix=/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel
 
 Name: sim_ros_interface
 Description: Description of sim_ros_interface
