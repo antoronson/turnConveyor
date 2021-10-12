@@ -2,7 +2,8 @@
 
 import rospy
 import message_filters
-import user_pkg.msg 
+from std_msgs.msg import *
+from custom_msg.msg import *
 
 """ Notes:
     # 3 Sensor signals are subscribed and saved to a global variable. 

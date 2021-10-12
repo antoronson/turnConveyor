@@ -67,14 +67,14 @@ set(custom_msg_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(custom_msg_SOURCE_PREFIX /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/src/custom_msg)
-  set(custom_msg_DEVEL_PREFIX /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel)
+  set(custom_msg_SOURCE_PREFIX /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/src/custom_msg)
+  set(custom_msg_DEVEL_PREFIX /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel)
   set(custom_msg_INSTALL_PREFIX "")
   set(custom_msg_PREFIX ${custom_msg_DEVEL_PREFIX})
 else()
   set(custom_msg_SOURCE_PREFIX "")
   set(custom_msg_DEVEL_PREFIX "")
-  set(custom_msg_INSTALL_PREFIX /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/install)
+  set(custom_msg_INSTALL_PREFIX /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/install)
   set(custom_msg_PREFIX ${custom_msg_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/install/lib;/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/install/lib;/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
@@ -185,7 +185,7 @@ foreach(t ${custom_msg_EXPORTED_TARGETS})
   endif()
 endforeach()
 
-set(depends "roscpp;rospy;std_msgs;message_runtime")
+set(depends "message_runtime;roscpp;rospy;std_msgs")
 foreach(depend ${depends})
   string(REPLACE " " ";" depend_list ${depend})
   # the package name of the dependency must be kept in a unique variable so that it is not overwritten in recursive calls

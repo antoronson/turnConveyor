@@ -67,14 +67,14 @@ set(custom_msg_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(custom_msg_SOURCE_PREFIX /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/src/custom_msg)
-  set(custom_msg_DEVEL_PREFIX /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel)
+  set(custom_msg_SOURCE_PREFIX /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/src/custom_msg)
+  set(custom_msg_DEVEL_PREFIX /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel)
   set(custom_msg_INSTALL_PREFIX "")
   set(custom_msg_PREFIX ${custom_msg_DEVEL_PREFIX})
 else()
   set(custom_msg_SOURCE_PREFIX "")
   set(custom_msg_DEVEL_PREFIX "")
-  set(custom_msg_INSTALL_PREFIX /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/install)
+  set(custom_msg_INSTALL_PREFIX /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/install)
   set(custom_msg_PREFIX ${custom_msg_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(custom_msg_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/include " STREQUAL " ")
+if(NOT "/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/include " STREQUAL " ")
   set(custom_msg_INCLUDE_DIRS "")
-  set(_include_dirs "/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/include")
+  set(_include_dirs "/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/dev
         message(FATAL_ERROR "Project 'custom_msg' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'custom_msg' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/src/custom_msg/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'custom_msg' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/src/custom_msg/${idir}'.  ${_report}")
     endif()
     _list_append_unique(custom_msg_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib;/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib;/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
@@ -185,7 +185,7 @@ foreach(t ${custom_msg_EXPORTED_TARGETS})
   endif()
 endforeach()
 
-set(depends "roscpp;rospy;std_msgs;message_runtime")
+set(depends "message_runtime;roscpp;rospy;std_msgs")
 foreach(depend ${depends})
   string(REPLACE " " ";" depend_list ${depend})
   # the package name of the dependency must be kept in a unique variable so that it is not overwritten in recursive calls

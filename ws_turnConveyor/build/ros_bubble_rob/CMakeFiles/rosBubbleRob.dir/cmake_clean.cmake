@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/src/ros_bubble_rob/bin/rosBubbleRob"
-  "/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/src/ros_bubble_rob/bin/rosBubbleRob.pdb"
+  "/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/src/ros_bubble_rob/bin/rosBubbleRob"
+  "/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/src/ros_bubble_rob/bin/rosBubbleRob.pdb"
   "CMakeFiles/rosBubbleRob.dir/src/rosBubbleRob.cpp.o"
 )
 

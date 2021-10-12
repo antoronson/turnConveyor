@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.pdb"
-  "/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so"
+  "/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.pdb"
+  "/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/libsimExtROS.so"
   "CMakeFiles/simExtROS.dir/generated/ros_msg_io.cpp.o"
   "CMakeFiles/simExtROS.dir/generated/ros_srv_io.cpp.o"
   "CMakeFiles/simExtROS.dir/generated/stubs.cpp.o"

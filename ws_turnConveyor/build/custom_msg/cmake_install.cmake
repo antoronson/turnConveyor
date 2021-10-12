@@ -1,8 +1,8 @@
-# Install script for directory: /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/src/custom_msg
+# Install script for directory: /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/src/custom_msg
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/install")
+  set(CMAKE_INSTALL_PREFIX "/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,57 +38,57 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/custom_msg/msg" TYPE FILE FILES "/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/src/custom_msg/msg/FloatList.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/custom_msg/msg" TYPE FILE FILES "/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/src/custom_msg/msg/FloatList.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/custom_msg/cmake" TYPE FILE FILES "/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/custom_msg/catkin_generated/installspace/custom_msg-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/custom_msg/cmake" TYPE FILE FILES "/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/custom_msg/catkin_generated/installspace/custom_msg-msg-paths.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/include/custom_msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/include/custom_msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/share/roseus/ros/custom_msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/share/roseus/ros/custom_msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/share/common-lisp/ros/custom_msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/share/common-lisp/ros/custom_msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/share/gennodejs/ros/custom_msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/share/gennodejs/ros/custom_msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/python3/dist-packages/custom_msg")
+  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/python3/dist-packages/custom_msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib/python3/dist-packages/custom_msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib/python3/dist-packages/custom_msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/custom_msg/catkin_generated/installspace/custom_msg.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/custom_msg/catkin_generated/installspace/custom_msg.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/custom_msg/cmake" TYPE FILE FILES "/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/custom_msg/catkin_generated/installspace/custom_msg-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/custom_msg/cmake" TYPE FILE FILES "/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/custom_msg/catkin_generated/installspace/custom_msg-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/custom_msg/cmake" TYPE FILE FILES
-    "/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/custom_msg/catkin_generated/installspace/custom_msgConfig.cmake"
-    "/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/custom_msg/catkin_generated/installspace/custom_msgConfig-version.cmake"
+    "/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/custom_msg/catkin_generated/installspace/custom_msgConfig.cmake"
+    "/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/custom_msg/catkin_generated/installspace/custom_msgConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/custom_msg" TYPE FILE FILES "/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/src/custom_msg/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/custom_msg" TYPE FILE FILES "/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/src/custom_msg/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/custom_msg" TYPE PROGRAM FILES "/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/custom_msg/catkin_generated/installspace/calcVelocity.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/custom_msg" TYPE PROGRAM FILES "/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/custom_msg/catkin_generated/installspace/calcVelocity.py")
 endif()
 

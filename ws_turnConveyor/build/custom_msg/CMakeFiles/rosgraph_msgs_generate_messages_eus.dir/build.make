@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/src
+CMAKE_SOURCE_DIR = /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build
+CMAKE_BINARY_DIR = /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build
 
 # Utility rule file for rosgraph_msgs_generate_messages_eus.
 
@@ -63,10 +63,10 @@ custom_msg/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build: rosgraph_ms
 .PHONY : custom_msg/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
 
 custom_msg/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean:
-	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/custom_msg && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/custom_msg && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : custom_msg/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
 
 custom_msg/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/depend:
-	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/src /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/src/custom_msg /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/custom_msg /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/custom_msg/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/src /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/src/custom_msg /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/custom_msg /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/custom_msg/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : custom_msg/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/depend
 

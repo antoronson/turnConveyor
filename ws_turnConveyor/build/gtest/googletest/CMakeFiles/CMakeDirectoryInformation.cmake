@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/usr/src/googletest")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

@@ -1,8 +1,8 @@
-# Install script for directory: /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/src/ros_bubble_rob
+# Install script for directory: /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/src/ros_bubble_rob
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/install")
+  set(CMAKE_INSTALL_PREFIX "/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
