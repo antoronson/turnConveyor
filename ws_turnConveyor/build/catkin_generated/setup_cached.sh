@@ -7,4 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export PWD='/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build'
+export LD_LIBRARY_PATH='/opt/ros/noetic/lib'
+export PKG_CONFIG_PATH='/opt/ros/noetic/lib/pkgconfig'
+export PWD='/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build'
+export PYTHONPATH='/opt/ros/noetic/lib/python3/dist-packages'

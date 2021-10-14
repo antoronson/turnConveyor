@@ -67,14 +67,14 @@ set(sim_ros_interface_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(sim_ros_interface_SOURCE_PREFIX /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/src/sim_ros_interface)
-  set(sim_ros_interface_DEVEL_PREFIX /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel)
+  set(sim_ros_interface_SOURCE_PREFIX /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/src/sim_ros_interface)
+  set(sim_ros_interface_DEVEL_PREFIX /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel)
   set(sim_ros_interface_INSTALL_PREFIX "")
   set(sim_ros_interface_PREFIX ${sim_ros_interface_DEVEL_PREFIX})
 else()
   set(sim_ros_interface_SOURCE_PREFIX "")
   set(sim_ros_interface_DEVEL_PREFIX "")
-  set(sim_ros_interface_INSTALL_PREFIX /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/install)
+  set(sim_ros_interface_INSTALL_PREFIX /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/install)
   set(sim_ros_interface_PREFIX ${sim_ros_interface_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/install/lib;/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/install/lib;/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

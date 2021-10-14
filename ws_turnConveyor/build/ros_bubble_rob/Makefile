@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/src
+CMAKE_SOURCE_DIR = /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build
+CMAKE_BINARY_DIR = /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/CMakeFiles /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/ros_bubble_rob/CMakeFiles/progress.marks
-	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build && $(MAKE) -f CMakeFiles/Makefile2 ros_bubble_rob/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/CMakeFiles 0
+	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/CMakeFiles /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/ros_bubble_rob/CMakeFiles/progress.marks
+	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build && $(MAKE) -f CMakeFiles/Makefile2 ros_bubble_rob/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build && $(MAKE) -f CMakeFiles/Makefile2 ros_bubble_rob/clean
+	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build && $(MAKE) -f CMakeFiles/Makefile2 ros_bubble_rob/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build && $(MAKE) -f CMakeFiles/Makefile2 ros_bubble_rob/preinstall
+	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build && $(MAKE) -f CMakeFiles/Makefile2 ros_bubble_rob/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build && $(MAKE) -f CMakeFiles/Makefile2 ros_bubble_rob/preinstall
+	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build && $(MAKE) -f CMakeFiles/Makefile2 ros_bubble_rob/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 ros_bubble_rob/CMakeFiles/_catkin_empty_exported_target.dir/rule:
-	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build && $(MAKE) -f CMakeFiles/Makefile2 ros_bubble_rob/CMakeFiles/_catkin_empty_exported_target.dir/rule
+	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build && $(MAKE) -f CMakeFiles/Makefile2 ros_bubble_rob/CMakeFiles/_catkin_empty_exported_target.dir/rule
 .PHONY : ros_bubble_rob/CMakeFiles/_catkin_empty_exported_target.dir/rule
 
 # Convenience name for target.
@@ -179,12 +179,12 @@ _catkin_empty_exported_target: ros_bubble_rob/CMakeFiles/_catkin_empty_exported_
 
 # fast build rule for target.
 _catkin_empty_exported_target/fast:
-	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build && $(MAKE) -f ros_bubble_rob/CMakeFiles/_catkin_empty_exported_target.dir/build.make ros_bubble_rob/CMakeFiles/_catkin_empty_exported_target.dir/build
+	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build && $(MAKE) -f ros_bubble_rob/CMakeFiles/_catkin_empty_exported_target.dir/build.make ros_bubble_rob/CMakeFiles/_catkin_empty_exported_target.dir/build
 .PHONY : _catkin_empty_exported_target/fast
 
 # Convenience name for target.
 ros_bubble_rob/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule:
-	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build && $(MAKE) -f CMakeFiles/Makefile2 ros_bubble_rob/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build && $(MAKE) -f CMakeFiles/Makefile2 ros_bubble_rob/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
 .PHONY : ros_bubble_rob/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -194,12 +194,12 @@ geometry_msgs_generate_messages_py: ros_bubble_rob/CMakeFiles/geometry_msgs_gene
 
 # fast build rule for target.
 geometry_msgs_generate_messages_py/fast:
-	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build && $(MAKE) -f ros_bubble_rob/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make ros_bubble_rob/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
+	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build && $(MAKE) -f ros_bubble_rob/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make ros_bubble_rob/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
 .PHONY : geometry_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 ros_bubble_rob/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule:
-	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build && $(MAKE) -f CMakeFiles/Makefile2 ros_bubble_rob/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build && $(MAKE) -f CMakeFiles/Makefile2 ros_bubble_rob/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
 .PHONY : ros_bubble_rob/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -209,12 +209,12 @@ geometry_msgs_generate_messages_cpp: ros_bubble_rob/CMakeFiles/geometry_msgs_gen
 
 # fast build rule for target.
 geometry_msgs_generate_messages_cpp/fast:
-	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build && $(MAKE) -f ros_bubble_rob/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make ros_bubble_rob/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
+	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build && $(MAKE) -f ros_bubble_rob/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make ros_bubble_rob/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
 .PHONY : geometry_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 ros_bubble_rob/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build && $(MAKE) -f CMakeFiles/Makefile2 ros_bubble_rob/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
+	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build && $(MAKE) -f CMakeFiles/Makefile2 ros_bubble_rob/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
 .PHONY : ros_bubble_rob/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -224,12 +224,12 @@ geometry_msgs_generate_messages_nodejs: ros_bubble_rob/CMakeFiles/geometry_msgs_
 
 # fast build rule for target.
 geometry_msgs_generate_messages_nodejs/fast:
-	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build && $(MAKE) -f ros_bubble_rob/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make ros_bubble_rob/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
+	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build && $(MAKE) -f ros_bubble_rob/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make ros_bubble_rob/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
 .PHONY : geometry_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 ros_bubble_rob/CMakeFiles/rosBubbleRob.dir/rule:
-	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build && $(MAKE) -f CMakeFiles/Makefile2 ros_bubble_rob/CMakeFiles/rosBubbleRob.dir/rule
+	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build && $(MAKE) -f CMakeFiles/Makefile2 ros_bubble_rob/CMakeFiles/rosBubbleRob.dir/rule
 .PHONY : ros_bubble_rob/CMakeFiles/rosBubbleRob.dir/rule
 
 # Convenience name for target.
@@ -239,12 +239,12 @@ rosBubbleRob: ros_bubble_rob/CMakeFiles/rosBubbleRob.dir/rule
 
 # fast build rule for target.
 rosBubbleRob/fast:
-	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build && $(MAKE) -f ros_bubble_rob/CMakeFiles/rosBubbleRob.dir/build.make ros_bubble_rob/CMakeFiles/rosBubbleRob.dir/build
+	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build && $(MAKE) -f ros_bubble_rob/CMakeFiles/rosBubbleRob.dir/build.make ros_bubble_rob/CMakeFiles/rosBubbleRob.dir/build
 .PHONY : rosBubbleRob/fast
 
 # Convenience name for target.
 ros_bubble_rob/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule:
-	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build && $(MAKE) -f CMakeFiles/Makefile2 ros_bubble_rob/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
+	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build && $(MAKE) -f CMakeFiles/Makefile2 ros_bubble_rob/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
 .PHONY : ros_bubble_rob/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -254,12 +254,12 @@ geometry_msgs_generate_messages_eus: ros_bubble_rob/CMakeFiles/geometry_msgs_gen
 
 # fast build rule for target.
 geometry_msgs_generate_messages_eus/fast:
-	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build && $(MAKE) -f ros_bubble_rob/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make ros_bubble_rob/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
+	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build && $(MAKE) -f ros_bubble_rob/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make ros_bubble_rob/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
 .PHONY : geometry_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 ros_bubble_rob/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule:
-	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build && $(MAKE) -f CMakeFiles/Makefile2 ros_bubble_rob/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
+	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build && $(MAKE) -f CMakeFiles/Makefile2 ros_bubble_rob/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
 .PHONY : ros_bubble_rob/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -269,7 +269,7 @@ geometry_msgs_generate_messages_lisp: ros_bubble_rob/CMakeFiles/geometry_msgs_ge
 
 # fast build rule for target.
 geometry_msgs_generate_messages_lisp/fast:
-	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build && $(MAKE) -f ros_bubble_rob/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make ros_bubble_rob/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
+	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build && $(MAKE) -f ros_bubble_rob/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make ros_bubble_rob/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
 .PHONY : geometry_msgs_generate_messages_lisp/fast
 
 src/rosBubbleRob.o: src/rosBubbleRob.cpp.o
@@ -278,7 +278,7 @@ src/rosBubbleRob.o: src/rosBubbleRob.cpp.o
 
 # target to build an object file
 src/rosBubbleRob.cpp.o:
-	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build && $(MAKE) -f ros_bubble_rob/CMakeFiles/rosBubbleRob.dir/build.make ros_bubble_rob/CMakeFiles/rosBubbleRob.dir/src/rosBubbleRob.cpp.o
+	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build && $(MAKE) -f ros_bubble_rob/CMakeFiles/rosBubbleRob.dir/build.make ros_bubble_rob/CMakeFiles/rosBubbleRob.dir/src/rosBubbleRob.cpp.o
 .PHONY : src/rosBubbleRob.cpp.o
 
 src/rosBubbleRob.i: src/rosBubbleRob.cpp.i
@@ -287,7 +287,7 @@ src/rosBubbleRob.i: src/rosBubbleRob.cpp.i
 
 # target to preprocess a source file
 src/rosBubbleRob.cpp.i:
-	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build && $(MAKE) -f ros_bubble_rob/CMakeFiles/rosBubbleRob.dir/build.make ros_bubble_rob/CMakeFiles/rosBubbleRob.dir/src/rosBubbleRob.cpp.i
+	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build && $(MAKE) -f ros_bubble_rob/CMakeFiles/rosBubbleRob.dir/build.make ros_bubble_rob/CMakeFiles/rosBubbleRob.dir/src/rosBubbleRob.cpp.i
 .PHONY : src/rosBubbleRob.cpp.i
 
 src/rosBubbleRob.s: src/rosBubbleRob.cpp.s
@@ -296,7 +296,7 @@ src/rosBubbleRob.s: src/rosBubbleRob.cpp.s
 
 # target to generate assembly for a file
 src/rosBubbleRob.cpp.s:
-	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build && $(MAKE) -f ros_bubble_rob/CMakeFiles/rosBubbleRob.dir/build.make ros_bubble_rob/CMakeFiles/rosBubbleRob.dir/src/rosBubbleRob.cpp.s
+	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build && $(MAKE) -f ros_bubble_rob/CMakeFiles/rosBubbleRob.dir/build.make ros_bubble_rob/CMakeFiles/rosBubbleRob.dir/src/rosBubbleRob.cpp.s
 .PHONY : src/rosBubbleRob.cpp.s
 
 # Help Target
@@ -333,6 +333,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

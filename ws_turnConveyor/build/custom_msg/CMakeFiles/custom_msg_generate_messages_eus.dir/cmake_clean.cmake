@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/share/roseus/ros/custom_msg/manifest.l"
-  "/home/antoronson/git_trade/turnConveyor/ws_turnConveyor/devel/share/roseus/ros/custom_msg/msg/FloatList.l"
+  "/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/share/roseus/ros/custom_msg/manifest.l"
+  "/home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/devel/share/roseus/ros/custom_msg/msg/FloatList.l"
   "CMakeFiles/custom_msg_generate_messages_eus"
 )
 

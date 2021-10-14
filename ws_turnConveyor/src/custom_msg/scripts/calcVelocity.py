@@ -4,8 +4,10 @@ import rospy
 import message_filters
 from std_msgs.msg import *
 from custom_msg.msg import *
-
-""" Notes:
+''' 
+    :author:Anto Ronson
+    :version:1.0
+    Notes:
     # 3 Sensor signals are subscribed and saved to a global variable. 
     # I tried to synchronize them with the message_filters option, but I need more time. 
     # I chose second option of saving to a global variable. 
@@ -15,22 +17,42 @@ from custom_msg.msg import *
     # Float64Multiarray is used for Publishing data
     #   [leftConv, rightConv]
     # Data will be published from callback2
-"""
+'''
 global bInit
 bInit = False
 
 pubVelocity = rospy.Publisher('dConvSpeed',FloatList, queue_size=10)
 
 def callback0(msg):
+    '''
+    :param msg:Bool
+    :param msg: Conveyor Sensor
+    :param bStartTurnConv:Bool
+    :param bStartTurnConv:Global Variable - Set Turn Conveyor with const velocity
+    '''
     #global bStartturnConv
     global bStartturnConv
     bStartturnConv = msg.data
 
 def callback1(msg):
+    '''
+    :param msg:Bool
+    :param msg: Conveyor Sensor
+    :return bStartTurn:Bool
+    :return bStartTurn:Global Variable - Start Turning Process
+    '''
     global bStartTurn
     bStartTurn = msg.data
 
 def callback2(msg):
+    '''
+    :param msg:Bool
+    :param msg: Conveyor Sensor
+    :return bStopTurn:Bool
+    :return bStopTurn:Global Variable - Reset Turn Velocity
+    :return:vel_msg:FloatList
+    :return:vel_msg:List with COnveyor veloctiy
+    '''
     global bStopTurn
     bStopTurn = msg.data
     global vel_msg

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/src
+CMAKE_SOURCE_DIR = /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build
+CMAKE_BINARY_DIR = /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build
 
 # Utility rule file for nav_msgs_generate_messages_nodejs.
 
@@ -63,10 +63,10 @@ sim_ros_interface/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build: nav_ms
 .PHONY : sim_ros_interface/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build
 
 sim_ros_interface/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/clean:
-	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/sim_ros_interface && $(CMAKE_COMMAND) -P CMakeFiles/nav_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/sim_ros_interface && $(CMAKE_COMMAND) -P CMakeFiles/nav_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : sim_ros_interface/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/clean
 
 sim_ros_interface/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/src /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/src/sim_ros_interface /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/sim_ros_interface /home/antoronson/git_trade/turnConveyor/ws_turnConveyor/build/sim_ros_interface/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/src /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/src/sim_ros_interface /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/sim_ros_interface /home/antoronson/git_trade/turnConveyor/turnConveyor/ws_turnConveyor/build/sim_ros_interface/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : sim_ros_interface/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/depend
 
