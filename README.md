@@ -1,10 +1,10 @@
-# turnConveyor
+# Turn Conveyor
 A simple turning mechanism for Intralogistics
 
-Step 1:
+## Step 1:
 A simple turn conveyor under reverse turning mechanism is created. 
 
-Components:
+## Components:
     --> 3 Conveyors
         --> Turn Process        = 2
         --> Transfer Process    = 1
@@ -16,19 +16,19 @@ Components:
     --> Mechanism to detect the Package turned angle
 
 
-Interface:
+## Interface:
     -> BOOL bStartTurnConveyor
     -> BOOL bStartTurnProcess
     -> BOOL bStopTurnProcess
     -> REAL rTurnSpeed
     -> REAL rTransferSpeed
 
-Tasks
+## Tasks
     ==> 1. Concept Validation using Physics Simulation
     ==> 2. Interface defenition for ROS
     ==> 3. Ros Setup. 
 
-1. Concept Validation:
+# 1. Concept Validation:
     Here a simple model was built in Coppelia Sim Software. 
     This model can turn a package.
     However, the orientation of the package cannot be determined. 
